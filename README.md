@@ -1,4 +1,6 @@
-<img src='./public/reduxcounterdemo.png'>
+<img src='./public/reduxcounterdemo.png'>  
+
+## https://gnom-redux-counter.netlify.app/  
 
 ## Dependencias
 
@@ -16,8 +18,8 @@
 
 ## Webpack compilation 
 
-### Compile:  
+### Compilar:  
     npx webpack  
 
-### Serve:
+### Servir en localhost:9000/
     npx webpack serve
