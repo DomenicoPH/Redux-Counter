@@ -1,0 +1,81 @@
+:root{
+    --pixelify: "Pixelify Sans", sans-serif;
+}
+
+/**/
+
+body{
+    height: 100dvh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+
+.header_title{
+    margin: 0;
+    text-shadow: 4px 4px 0  purple;
+    font-family: var(--pixelify);
+}
+.counterBody{
+    box-shadow: 0 0 0 2px purple;
+    border: 6px solid greenyellow;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: greenyellow;
+    padding: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.screen{
+    background-color: rgb(22, 22, 43);
+    box-shadow: 4px 4px 0  purple;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+.control{
+    padding: 20px;
+}
+
+.count{
+    color: greenyellow;
+    margin: 0;
+    font-size: 3rem;
+    font-family: var(--pixelify);
+}
+
+.boton{
+    font-family: var(--pixelify);
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    box-shadow: 0 0 0 4px purple;
+    color: purple;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    user-select: none;
+}
+.boton:hover{
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    margin: 1px;
+}
+
+.footer p{
+    color: greenyellow;
+    font-family: var(--pixelify);
+    letter-spacing: .25rem;
+    margin-left: .25rem;
+}
