@@ -2,6 +2,22 @@ import {createStore} from 'redux';
 import './styles/norm.css';
 import './styles/styles.css';
 
+/* Sound Effect */
+import clickSound from './sound/click-effect-short.mp3';
+const buttons = document.querySelectorAll('.boton');
+
+const playSound = () => {
+    const audio = new Audio(clickSound);
+    audio.play();
+};
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        playSound();
+    })
+})
+/* Sound Effect */
+
 const reset = document.querySelector('.reset');
 const sumar = document.querySelector('.sumar');
 const restar = document.querySelector('.restar');
