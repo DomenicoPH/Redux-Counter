@@ -1,4 +1,6 @@
-## Dependencies
+<img src='./public/reduxcounterdemo.png'>
+
+## Dependencias
 
     npm i redux
     npm i webpack webpack-cli
